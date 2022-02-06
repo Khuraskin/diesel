@@ -48,6 +48,7 @@ a {
   text-decoration: none;
 }
 
+
 .wrap {
     background: url("./img/bk_main.jpg") center top no-repeat;
     display: block;
@@ -283,6 +284,23 @@ a {
     width: 260px;
     box-shadow: 0 0 40px rgb(0 0 0 / 20%);
     margin-bottom: 20px;
+}
+
+
+
+@media (max-width: 500px) {    
+    
+    .cells {
+        flex-wrap: wrap;
+    }
+
+    .cell__img--mix {
+        width: 360px;
+        box-shadow: 0 0 40px rgb(0 0 0 / 20%);
+        
+     
+}
+
 }
 
 .cell__title {
@@ -875,7 +893,7 @@ min-width: 1170px;
     display: flex;
     align-items: center;
     margin-bottom: 25px;
-    width: 55px;
+    
 }
 
 .footer__text {
