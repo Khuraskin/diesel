@@ -67,8 +67,13 @@ a {
     }
 }
 
-
 .wrap {
+    min-height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.main__wrap {
     background: url("./img/bk_main.jpg") center top no-repeat;
     display: block;
     background-attachment: fixed;
@@ -77,6 +82,7 @@ a {
     overflow: hidden;
     filter: none;
     min-width: 1170px;
+    
 }
 
 .container {
